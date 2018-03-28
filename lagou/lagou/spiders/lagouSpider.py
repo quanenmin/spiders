@@ -65,8 +65,8 @@ class LagouSpider(CrawlSpider):
         }
 
         # 模拟登录数据
-        name = "cthinker@qiyigou.com"
-        pwd = "wangdong"
+        name = "*******"
+        pwd = "******"
         pwd = encrypt('veenike' + encrypt(pwd) + 'veenike')
 
         data = {
